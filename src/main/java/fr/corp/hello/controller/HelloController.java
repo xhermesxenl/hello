@@ -13,7 +13,7 @@ public class HelloController {
      @RequestMapping(value = "/hello", produces = MediaType.APPLICATION_JSON_VALUE)
     public String test1()  {
 
-         String res = "hello power docker";
+         String res = "hello power docker 2";
         log.info("Step 0 start hello");
 
 
